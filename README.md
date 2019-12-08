@@ -23,7 +23,7 @@ browsing in a vm provides.
   
 * enable bidirectional drag and drop virtualbox → devices → drag and drop → bidirectional  
   
-**do the following in the newly created vm____________________________________________________________**  
+**do the following in the newly created vm___________________________________________________________**  
 
 ## make user „surfing“ sudoer  
 * su -  
