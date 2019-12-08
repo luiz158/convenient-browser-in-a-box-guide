@@ -23,8 +23,8 @@ browsing in a vm provides.
   
 * enable bidirectional drag and drop virtualbox → devices → drag and drop → bidirectional  
   
-**do the following in the newly created vm___________________________________________________________**  
-
+**do the following in the newly created vm**  
+ 
 ## make user „surfing“ sudoer  
 * su -  
 * usermod -aG sudo surfing  
@@ -49,7 +49,8 @@ browsing in a vm provides.
 * edit file /etc/pam.d/lightdm:  
     Before the @include common-auth line , add the following line :  
     auth sufficient pam_succeed_if.so user ingroup nopasswdlogin  
-**___________________________________________________________________________________________**  
+    
+**do the following in your host system**  
   
 ## make sure keyboard is not locked in virtualbox  
 This is done so you can switch workspaces (i.e. ctrl+ tab) without having to disable keyboard-lock each time.  
