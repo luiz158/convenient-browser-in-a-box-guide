@@ -68,4 +68,4 @@ This is done so you can switch workspaces (i.e. ctrl+ tab) without having to dis
     Terminal=true  
     Type=Application  
   
-Otherwise put VBoxManage startvm "debian for surfing" in a script and make it run at boot (after gui has loaded -> /etc/init.d/ wont work)  
+Otherwise put VBoxManage startvm "debian for surfing" in a script and make it run at boot
